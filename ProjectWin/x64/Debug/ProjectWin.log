@@ -1,0 +1,89 @@
+﻿  avl.c
+c:\users\filib\source\repos\projectwin\projectwin\common.h(48): warning C4005: 'TRUE': ridefinizione macro
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\shared\minwindef.h(75): note: vedere la precedente definizione di 'TRUE'
+c:\users\filib\source\repos\projectwin\projectwin\common.h(49): warning C4005: 'FALSE': ridefinizione macro
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\shared\minwindef.h(71): note: vedere la precedente definizione di 'FALSE'
+  client.c
+c:\users\filib\source\repos\projectwin\projectwin\client.c(123): warning C4133: 'funzione': tipi non compatibili. Da 'metadataChar *' a 'char *'
+c:\users\filib\source\repos\projectwin\projectwin\client.c(123): warning C4267: 'funzione': conversione da 'size_t' a 'int'. Possibile perdita di dati.
+c:\users\filib\source\repos\projectwin\projectwin\client.c(149): warning C4477: 'sscanf': con la stringa di formato '%ld' è necessario un argomento di tipo 'long *', ma il tipo dell'argomento variadic 1 è 'size_t *'
+  c:\users\filib\source\repos\projectwin\projectwin\client.c(149): note: provare a usare '%zd' nella stringa di formato
+c:\users\filib\source\repos\projectwin\projectwin\client.c(178): warning C4267: 'funzione': conversione da 'size_t' a 'int'. Possibile perdita di dati.
+c:\users\filib\source\repos\projectwin\projectwin\client.c(223): warning C4477: 'sprintf': con la stringa di formato '%ld' è necessario un argomento di tipo 'long', ma il tipo dell'argomento variadic 1 è 'size_t'
+  c:\users\filib\source\repos\projectwin\projectwin\client.c(223): note: provare a usare '%zd' nella stringa di formato
+c:\users\filib\source\repos\projectwin\projectwin\client.c(240): warning C4133: 'funzione': tipi non compatibili. Da 'mailChar *' a 'const char *'
+c:\users\filib\source\repos\projectwin\projectwin\client.c(240): warning C4267: 'funzione': conversione da 'size_t' a 'int'. Possibile perdita di dati.
+c:\users\filib\source\repos\projectwin\projectwin\client.c(259): warning C4267: 'funzione': conversione da 'size_t' a 'int'. Possibile perdita di dati.
+c:\users\filib\source\repos\projectwin\projectwin\client.c(317): warning C4477: 'printf': con la stringa di formato '%ld' è necessario un argomento di tipo 'long', ma il tipo dell'argomento variadic 1 è 'size_t'
+  c:\users\filib\source\repos\projectwin\projectwin\client.c(317): note: provare a usare '%zd' nella stringa di formato
+c:\users\filib\source\repos\projectwin\projectwin\client.c(375): warning C4102: 'rescue': etichetta senza riferimenti
+c:\users\filib\source\repos\projectwin\projectwin\client.c(550): warning C4267: 'funzione': conversione da 'size_t' a 'int'. Possibile perdita di dati.
+  common.c
+  dlist.c
+c:\users\filib\source\repos\projectwin\projectwin\common.h(48): warning C4005: 'TRUE': ridefinizione macro
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\shared\minwindef.h(75): note: vedere la precedente definizione di 'TRUE'
+c:\users\filib\source\repos\projectwin\projectwin\common.h(49): warning C4005: 'FALSE': ridefinizione macro
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\shared\minwindef.h(71): note: vedere la precedente definizione di 'FALSE'
+  fileSystemUtility.c
+c:\users\filib\source\repos\projectwin\projectwin\filesystemutility.c(19): warning C4013: '_chdir' non definita. Verrà considerata come esterna che restituisce un int.
+c:\users\filib\source\repos\projectwin\projectwin\filesystemutility.c(25): warning C4013: '_mkdir' non definita. Verrà considerata come esterna che restituisce un int.
+c:\users\filib\source\repos\projectwin\projectwin\filesystemutility.c(45): warning C4013: '_getcwd' non definita. Verrà considerata come esterna che restituisce un int.
+  globalSet.c
+c:\users\filib\source\repos\projectwin\projectwin\globalset.c(13): warning C4013: 'memcpy' non definita. Verrà considerata come esterna che restituisce un int.
+  log.c
+  main.c
+c:\users\filib\source\repos\projectwin\projectwin\common.h(48): warning C4005: 'TRUE': ridefinizione macro
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\shared\minwindef.h(75): note: vedere la precedente definizione di 'TRUE'
+c:\users\filib\source\repos\projectwin\projectwin\common.h(49): warning C4005: 'FALSE': ridefinizione macro
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\shared\minwindef.h(71): note: vedere la precedente definizione di 'FALSE'
+c:\users\filib\source\repos\projectwin\projectwin\main.c(53): warning C4013: '_chdir' non definita. Verrà considerata come esterna che restituisce un int.
+c:\users\filib\source\repos\projectwin\projectwin\main.c(59): warning C4013: '_mkdir' non definita. Verrà considerata come esterna che restituisce un int.
+c:\users\filib\source\repos\projectwin\projectwin\main.c(79): warning C4013: '_getcwd' non definita. Verrà considerata come esterna che restituisce un int.
+c:\users\filib\source\repos\projectwin\projectwin\main.c(202): warning C4047: 'funzione': 'DWORD' differisce da 'void *' nei livelli di riferimento indiretto
+c:\users\filib\source\repos\projectwin\projectwin\main.c(202): warning C4024: 'TerminateThread': tipi diversi tra il parametro 2 formale e quello effettivo
+c:\users\filib\source\repos\projectwin\projectwin\main.c(205): warning C4047: 'funzione': 'DWORD' differisce da 'void *' nei livelli di riferimento indiretto
+c:\users\filib\source\repos\projectwin\projectwin\main.c(205): warning C4024: 'TerminateThread': tipi diversi tra il parametro 2 formale e quello effettivo
+  mexData.c
+c:\users\filib\source\repos\projectwin\projectwin\mexdata.c(84): warning C4133: 'funzione': tipi non compatibili. Da 'convInfo *' a 'char *'
+c:\users\filib\source\repos\projectwin\projectwin\mexdata.c(98): warning C4133: 'funzione': tipi non compatibili. Da 'mexInfo *' a 'char *'
+c:\users\filib\source\repos\projectwin\projectwin\mexdata.c(217): warning C4477: 'printf': con la stringa di formato '%d' è necessario un argomento di tipo 'int', ma il tipo dell'argomento variadic 1 è 'size_t'
+  c:\users\filib\source\repos\projectwin\projectwin\mexdata.c(217): note: provare a usare '%zd' nella stringa di formato
+c:\users\filib\source\repos\projectwin\projectwin\mexdata.c(217): warning C4477: 'printf': con la stringa di formato '%d' è necessario un argomento di tipo 'int', ma il tipo dell'argomento variadic 2 è 'size_t'
+  c:\users\filib\source\repos\projectwin\projectwin\mexdata.c(217): note: provare a usare '%zd' nella stringa di formato
+c:\users\filib\source\repos\projectwin\projectwin\mexdata.c(245): warning C4477: 'printf': con la stringa di formato '%ld' è necessario un argomento di tipo 'long', ma il tipo dell'argomento variadic 1 è 'size_t'
+  c:\users\filib\source\repos\projectwin\projectwin\mexdata.c(245): note: provare a usare '%zd' nella stringa di formato
+c:\users\filib\source\repos\projectwin\projectwin\mexdata.c(245): warning C4477: 'printf': con la stringa di formato '%ld' è necessario un argomento di tipo 'long', ma il tipo dell'argomento variadic 2 è 'size_t'
+  c:\users\filib\source\repos\projectwin\projectwin\mexdata.c(245): note: provare a usare '%zd' nella stringa di formato
+c:\users\filib\source\repos\projectwin\projectwin\mexdata.c(245): warning C4477: 'printf': con la stringa di formato '%ld' è necessario un argomento di tipo 'long', ma il tipo dell'argomento variadic 3 è 'size_t'
+  c:\users\filib\source\repos\projectwin\projectwin\mexdata.c(245): note: provare a usare '%zd' nella stringa di formato
+  queue.c
+  stack.c
+c:\users\filib\source\repos\projectwin\projectwin\common.h(48): warning C4005: 'TRUE': ridefinizione macro
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\shared\minwindef.h(75): note: vedere la precedente definizione di 'TRUE'
+c:\users\filib\source\repos\projectwin\projectwin\common.h(49): warning C4005: 'FALSE': ridefinizione macro
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\shared\minwindef.h(71): note: vedere la precedente definizione di 'FALSE'
+  tableFile.c
+c:\users\filib\source\repos\projectwin\projectwin\tablefile.c(150): warning C4133: 'funzione': tipi non compatibili. Da 'entry *' a 'char *'
+c:\users\filib\source\repos\projectwin\projectwin\tablefile.c(155): warning C4133: 'funzione': tipi non compatibili. Da 'entry *' a 'char *'
+c:\users\filib\source\repos\projectwin\projectwin\tablefile.c(161): warning C4133: 'funzione': tipi non compatibili. Da 'firstFree *' a 'char *'
+c:\users\filib\source\repos\projectwin\projectwin\tablefile.c(176): warning C4133: 'funzione': tipi non compatibili. Da 'entry *' a 'char *'
+c:\users\filib\source\repos\projectwin\projectwin\tablefile.c(182): warning C4133: 'funzione': tipi non compatibili. Da 'firstFree *' a 'char *'
+c:\users\filib\source\repos\projectwin\projectwin\tablefile.c(222): warning C4133: 'funzione': tipi non compatibili. Da 'entry *' a 'char *'
+c:\users\filib\source\repos\projectwin\projectwin\tablefile.c(228): warning C4133: 'funzione': tipi non compatibili. Da 'firstFree *' a 'char *'
+c:\users\filib\source\repos\projectwin\projectwin\tablefile.c(301): warning C4477: 'printf': con la stringa di formato '%zd' è necessario un argomento di tipo 'unsigned __int64', ma il tipo dell'argomento variadic 1 è '_off_t'
+  c:\users\filib\source\repos\projectwin\projectwin\tablefile.c(301): note: provare a usare '%ld' nella stringa di formato
+c:\users\filib\source\repos\projectwin\projectwin\tablefile.c(301): warning C4477: 'printf': con la stringa di formato '%zd' è necessario un argomento di tipo 'unsigned __int64', ma il tipo dell'argomento variadic 3 è 'int'
+  c:\users\filib\source\repos\projectwin\projectwin\tablefile.c(301): note: provare a usare '%d' nella stringa di formato
+  c:\users\filib\source\repos\projectwin\projectwin\tablefile.c(301): note: provare a usare '%I32d' nella stringa di formato
+c:\users\filib\source\repos\projectwin\projectwin\tablefile.c(302): warning C4477: 'printf': con la stringa di formato '%d' è necessario un argomento di tipo 'int', ma il tipo dell'argomento variadic 1 è 'size_t'
+  c:\users\filib\source\repos\projectwin\projectwin\tablefile.c(302): note: provare a usare '%zd' nella stringa di formato
+c:\users\filib\source\repos\projectwin\projectwin\tablefile.c(302): warning C4477: 'printf': con la stringa di formato '%d' è necessario un argomento di tipo 'int', ma il tipo dell'argomento variadic 2 è 'size_t'
+  c:\users\filib\source\repos\projectwin\projectwin\tablefile.c(302): note: provare a usare '%zd' nella stringa di formato
+  tree.c
+c:\users\filib\source\repos\projectwin\projectwin\common.h(48): warning C4005: 'TRUE': ridefinizione macro
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\shared\minwindef.h(75): note: vedere la precedente definizione di 'TRUE'
+c:\users\filib\source\repos\projectwin\projectwin\common.h(49): warning C4005: 'FALSE': ridefinizione macro
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\shared\minwindef.h(71): note: vedere la precedente definizione di 'FALSE'
+c:\users\filib\source\repos\projectwin\projectwin\tree.c(140): warning C4013: 'log' non definita. Verrà considerata come esterna che restituisce un int.
+  Generazione del codice in corso...
+  ProjectWin.vcxproj -> C:\Users\filib\source\repos\ProjectWin\x64\Debug\ProjectWin.exe
